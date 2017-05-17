@@ -61,8 +61,7 @@ class TextCNN(object):
 
         # dropout层
         with tf.name_scope("dropout"):
-            # self.h_drop = tf.nn.dropout(self.h_pool_flat
-, self.dropout_keep_prob)
+            # self.h_drop = tf.nn.dropout(self.h_pool_flat, self.dropout_keep_prob)
             self.h_drop=tf.nn.dropout(self.h_fc1, self.dropout_keep_prob)
 
         # 输出

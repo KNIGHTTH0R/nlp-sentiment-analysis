@@ -2,3 +2,5 @@
 .idea
 
 *.pyc
+cnn/w2v_model/*
+cnn/runs/*
